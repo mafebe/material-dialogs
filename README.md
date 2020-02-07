@@ -1,134 +1,60 @@
 # Material Dialogs
 
-[ ![Core](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Acore/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Acore/_latestVersion)
-[ ![Commons](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Acommons/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Acommons/_latestVersion)
-[![Build Status](https://travis-ci.org/afollestad/material-dialogs.svg)](https://travis-ci.org/afollestad/material-dialogs)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0a4acc30a9ce440087f7688735359bb8)](https://www.codacy.com/app/drummeraidan_50/material-dialogs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=afollestad/material-dialogs&amp;utm_campaign=Badge_Grade)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/afollestad/material-dialogs/blob/master/LICENSE.txt)
-
-![Screenshots](https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/readmeshowcase.png)
-
 # Table of Contents (Core)
 
-1. [Sample Project](https://github.com/afollestad/material-dialogs#sample-project)
-2. [Gradle Dependency](https://github.com/afollestad/material-dialogs#gradle-dependency)
-    1. [Repository](https://github.com/afollestad/material-dialogs#repository)
-    2. [Core](https://github.com/afollestad/material-dialogs#core)
-    3. [Commons](https://github.com/afollestad/material-dialogs#commons)
-3. [What's New](https://github.com/afollestad/material-dialogs#whats-new)
-4. [Basic Dialog](https://github.com/afollestad/material-dialogs#basic-dialog)
-5. [Dismissing Dialogs](https://github.com/afollestad/material-dialogs#dismissing-dialogs)
-6. [Displaying an Icon](https://github.com/afollestad/material-dialogs#displaying-an-icon)
-7. [Stacked Action Buttons](https://github.com/afollestad/material-dialogs#stacked-action-buttons)
-    1. [Stacking Behavior](https://github.com/afollestad/material-dialogs#stacking-behavior)
-8. [Neutral Action Button](https://github.com/afollestad/material-dialogs#neutral-action-button)
-9. [Callbacks](https://github.com/afollestad/material-dialogs#callbacks)
-10. [CheckBox Prompts](https://github.com/afollestad/material-dialogs#checkbox-prompts)
-11. [List Dialogs](https://github.com/afollestad/material-dialogs#list-dialogs)
-12. [Single Choice List Dialogs](https://github.com/afollestad/material-dialogs#single-choice-list-dialogs)
-    1. [Coloring Radio Buttons](https://github.com/afollestad/material-dialogs#coloring-radio-buttons)
-13. [Multi Choice List Dialogs](https://github.com/afollestad/material-dialogs#multi-choice-list-dialogs)
-    1. [Coloring Check Boxes](https://github.com/afollestad/material-dialogs#coloring-check-boxes)
-14. [Assigning IDs to List Item Views](https://github.com/afollestad/material-dialogs#assigning-ids-to-list-item-views)
-15. [Custom List Dialogs](https://github.com/afollestad/material-dialogs#custom-list-dialogs)
-16. [Custom Views](https://github.com/afollestad/material-dialogs#custom-views)
-    1. [Later Access](https://github.com/afollestad/material-dialogs#later-access)
-17. [Typefaces](https://github.com/afollestad/material-dialogs#typefaces)
-18. [Getting and Setting Action Buttons](https://github.com/afollestad/material-dialogs#getting-and-setting-action-buttons)
-19. [Theming](https://github.com/afollestad/material-dialogs#theming)
-    1. [Basics](https://github.com/afollestad/material-dialogs#basics)
-    2. [Colors](https://github.com/afollestad/material-dialogs#colors)
-    3. [Selectors](https://github.com/afollestad/material-dialogs#selectors)
-    4. [Gravity](https://github.com/afollestad/material-dialogs#gravity)
-    5. [Material Palette](https://github.com/afollestad/material-dialogs#material-palette)
-20. [Global Theming](https://github.com/afollestad/material-dialogs#global-theming)
-21. [Show, Cancel, and Dismiss Callbacks](https://github.com/afollestad/material-dialogs#show-cancel-and-dismiss-callbacks)
-22. [Input Dialogs](https://github.com/afollestad/material-dialogs#input-dialogs)
-    1. [Coloring the EditText](https://github.com/afollestad/material-dialogs#coloring-the-edittext)
-    2. [Limiting Input Length](https://github.com/afollestad/material-dialogs#limiting-input-length)
-    3. [Custom Invalidation](https://github.com/afollestad/material-dialogs#custom-invalidation)
-23. [Progress Dialogs](https://github.com/afollestad/material-dialogs#progress-dialogs)
-    1. [Proguard](https://github.com/afollestad/material-dialogs#proguard)
-    2. [Indeterminate Progress Dialogs](https://github.com/afollestad/material-dialogs#indeterminate-progress-dialogs)
-    3. [Determinate (Seek Bar) Progress Dialogs](https://github.com/afollestad/material-dialogs#determinate-seek-bar-progress-dialogs)
-    4. [Make an Indeterminate Dialog Horizontal](https://github.com/afollestad/material-dialogs#make-an-indeterminate-dialog-horizontal)
-    5. [Coloring the Progress Bar](https://github.com/afollestad/material-dialogs#coloring-the-progress-bar)
-    6. [Custom Number and Progress Formats](https://github.com/afollestad/material-dialogs#custom-number-and-progress-formats)
-24. [Tint Helper](https://github.com/afollestad/material-dialogs#tint-helper)
-25. [Misc](https://github.com/afollestad/material-dialogs#misc)
+1. ~~Sample Project~~
+2. ~~Gradle Dependency~~
+3. ~~What's New~~
+4. [Basic Dialog](https://github.com/bematthias/material-dialogs#basic-dialog)
+5. [Dismissing Dialogs](https://github.com/bematthias/material-dialogs#dismissing-dialogs)
+6. [Displaying an Icon](https://github.com/bematthias/material-dialogs#displaying-an-icon)
+7. [Stacked Action Buttons](https://github.com/bematthias/material-dialogs#stacked-action-buttons)
+    1. [Stacking Behavior](https://github.com/bematthias/material-dialogs#stacking-behavior)
+8. [Neutral Action Button](https://github.com/bematthias/material-dialogs#neutral-action-button)
+9. [Callbacks](https://github.com/bematthias/material-dialogs#callbacks)
+10. [CheckBox Prompts](https://github.com/bematthias/material-dialogs#checkbox-prompts)
+11. [List Dialogs](https://github.com/bematthias/material-dialogs#list-dialogs)
+12. [Single Choice List Dialogs](https://github.com/bematthias/material-dialogs#single-choice-list-dialogs)
+    1. [Coloring Radio Buttons](https://github.com/bematthias/material-dialogs#coloring-radio-buttons)
+13. [Multi Choice List Dialogs](https://github.com/bematthias/material-dialogs#multi-choice-list-dialogs)
+    1. [Coloring Check Boxes](https://github.com/bematthias/material-dialogs#coloring-check-boxes)
+14. [Assigning IDs to List Item Views](https://github.com/bematthias/material-dialogs#assigning-ids-to-list-item-views)
+15. [Custom List Dialogs](https://github.com/bematthias/material-dialogs#custom-list-dialogs)
+16. [Custom Views](https://github.com/bematthias/material-dialogs#custom-views)
+    1. [Later Access](https://github.com/bematthias/material-dialogs#later-access)
+17. [Typefaces](https://github.com/bematthias/material-dialogs#typefaces)
+18. [Getting and Setting Action Buttons](https://github.com/bematthias/material-dialogs#getting-and-setting-action-buttons)
+19. [Theming](https://github.com/bematthias/material-dialogs#theming)
+    1. [Basics](https://github.com/bematthias/material-dialogs#basics)
+    2. [Colors](https://github.com/bematthias/material-dialogs#colors)
+    3. [Selectors](https://github.com/bematthias/material-dialogs#selectors)
+    4. [Gravity](https://github.com/bematthias/material-dialogs#gravity)
+    5. [Material Palette](https://github.com/bematthias/material-dialogs#material-palette)
+20. [Global Theming](https://github.com/bematthias/material-dialogs#global-theming)
+21. [Show, Cancel, and Dismiss Callbacks](https://github.com/bematthias/material-dialogs#show-cancel-and-dismiss-callbacks)
+22. [Input Dialogs](https://github.com/bematthias/material-dialogs#input-dialogs)
+    1. [Coloring the EditText](https://github.com/bematthias/material-dialogs#coloring-the-edittext)
+    2. [Limiting Input Length](https://github.com/bematthias/material-dialogs#limiting-input-length)
+    3. [Custom Invalidation](https://github.com/bematthias/material-dialogs#custom-invalidation)
+23. [Progress Dialogs](https://github.com/bematthias/material-dialogs#progress-dialogs)
+    1. [Proguard](https://github.com/bematthias/material-dialogs#proguard)
+    2. [Indeterminate Progress Dialogs](https://github.com/bematthias/material-dialogs#indeterminate-progress-dialogs)
+    3. [Determinate (Seek Bar) Progress Dialogs](https://github.com/bematthias/material-dialogs#determinate-seek-bar-progress-dialogs)
+    4. [Make an Indeterminate Dialog Horizontal](https://github.com/bematthias/material-dialogs#make-an-indeterminate-dialog-horizontal)
+    5. [Coloring the Progress Bar](https://github.com/bematthias/material-dialogs#coloring-the-progress-bar)
+    6. [Custom Number and Progress Formats](https://github.com/bematthias/material-dialogs#custom-number-and-progress-formats)
+24. [Tint Helper](https://github.com/bematthias/material-dialogs#tint-helper)
+25. [Misc](https://github.com/bematthias/material-dialogs#misc)
 
 # Table of Contents (Commons)
 
-1. [Color Chooser Dialogs](https://github.com/afollestad/material-dialogs#color-chooser-dialogs)
-    1. [Finding Visible Dialogs](https://github.com/afollestad/material-dialogs#finding-visible-dialogs)
-    2. [User Color Input](https://github.com/afollestad/material-dialogs#user-color-input)
-2. [File Selector Dialogs](https://github.com/afollestad/material-dialogs#file-selector-dialogs)
-3. [Folder Selector Dialogs](https://github.com/afollestad/material-dialogs#folder-selector-dialogs)
-4. [Preference Dialogs](https://github.com/afollestad/material-dialogs#preference-dialogs)
-5. [Simple List Dialogs](https://github.com/afollestad/material-dialogs#simple-list-dialogs) 
-
-------
-
-# Sample Project
-
-You can download the latest sample APK from this repo here: https://github.com/afollestad/material-dialogs/blob/master/sample/sample.apk
-
-It's also on Google Play:
-
-<a href="https://play.google.com/store/apps/details?id=com.afollestad.materialdialogssample" target="_blank">
-  <img alt="Get it on Google Play"
-       src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="60"/>
-</a>
-
-Having the sample project installed is a good way to be notified of new releases. Although Watching this 
-repository will allow GitHub to email you whenever I publish a release.
-
----
-
-# Gradle Dependency
-
-### Repository
-
-The Gradle dependency is available via [jCenter](https://bintray.com/drummer-aidan/maven/material-dialogs:core/view).
-jCenter is the default Maven repository used by Android Studio.
-
-The minimum API level supported by this library is API 14.
-
-### Core
-
-The *core* module contains all the major classes of this library, including `MaterialDialog`.
-You can create basic, list, single/multi choice, progress, input, etc. dialogs with core.
-
-```gradle
-dependencies {
-	// ... other dependencies here
-    compile 'com.afollestad.material-dialogs:core:0.9.6.0'
-}
-```
-
-### Commons
-
-The *commons* module contains extensions to the library that not everyone may need. This includes the
-`ColorChooserDialog`, `FolderChooserDialog`, the Material `Preference` classes, and `MaterialSimpleListAdapter`/`MaterialSimpleListItem`.
-
-```gradle
-dependencies {
-    // ... other dependencies here
-    compile 'com.afollestad.material-dialogs:commons:0.9.6.0'
-}
-```
-
-It's likely that new extensions will be added to commons later.
-
----
-
-# What's New
-
-See the project's Releases page for a list of versions with their changelogs.
-
-### [View Releases](https://github.com/afollestad/material-dialogs/releases)
-
-If you Watch this repository, GitHub will send you an email every time I publish an update.
+1. [Color Chooser Dialogs](https://github.com/bematthias/material-dialogs#color-chooser-dialogs)
+    1. [Finding Visible Dialogs](https://github.com/bematthias/material-dialogs#finding-visible-dialogs)
+    2. [User Color Input](https://github.com/bematthias/material-dialogs#user-color-input)
+2. [File Selector Dialogs](https://github.com/bematthias/material-dialogs#file-selector-dialogs)
+3. [Folder Selector Dialogs](https://github.com/bematthias/material-dialogs#folder-selector-dialogs)
+4. [Preference Dialogs](https://github.com/bematthias/material-dialogs#preference-dialogs)
+5. [Simple List Dialogs](https://github.com/bematthias/material-dialogs#simple-list-dialogs) 
 
 ---
 
