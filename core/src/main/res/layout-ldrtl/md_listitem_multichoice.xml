@@ -12,6 +12,16 @@
     android:paddingRight="@dimen/md_dialog_frame_margin"
     tools:gravity="start|center_vertical">
 
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/md_control"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/md_listitem_height" />
+
     <TextView
         android:id="@+id/md_title"
         android:layout_width="wrap_content"
@@ -24,15 +34,5 @@
         android:textSize="@dimen/md_listitem_textsize"
         tools:ignore="RtlSymmetry"
         tools:text="Item" />
-
-    <androidx.appcompat.widget.AppCompatCheckBox
-        android:id="@+id/md_control"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@null"
-        android:clickable="false"
-        android:focusable="false"
-        android:gravity="center_vertical"
-        android:minHeight="@dimen/md_listitem_height" />
 
 </LinearLayout>
